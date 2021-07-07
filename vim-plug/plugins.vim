@@ -47,7 +47,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Closetags
     Plug 'alvan/vim-closetag'
     " Themes
-    Plug 'christianchiarulli/onedark.vim'
+    Plug 'harshanarayana/onedark.vim'
     " Plug 'kaicataldo/material.vim'
     " Plug 'NLKNguyen/papercolor-theme'
     " Plug 'tomasiser/vim-code-dark'
@@ -89,7 +89,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Echo doc
     " Plug 'Shougo/echodoc.vim'
     " Interactive code
-    Plug 'ChristianChiarulli/codi.vim'
+    Plug 'harshanarayana/codi.vim'
     " Vim Wiki
     " Plug 'https://github.com/vimwiki/vimwiki.git'
   endif
