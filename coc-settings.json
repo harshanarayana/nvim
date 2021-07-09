@@ -27,13 +27,11 @@
   // autoformat
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
-    "markdown",
     "javascript",
     "graphql",
     "html",
-    "yaml",
-    "json",
-    "python"
+    "python",
+    "go"
   ],
   "coc.preferences.hoverTarget": "float",
 
@@ -41,9 +39,10 @@
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
   "python.formatting.provider": "black",
-  "python.formatting.blackPath": "~/.miniconda/envs/neovim/bin/black",
+  "python.formatting.blackPath": "/Users/harshnar/opt/anaconda3/bin/black",
+  "python.formatting.blackArgs": ["--line-length=119"],
   // "python.linting.pylintPath": "~/.miniconda/envs/neovim/bin/pylint",
-  "python.condaPath": "~/.miniconda/bin/conda",
+  "python.condaPath": "~/opt/anaconda3/bin/isort",
   "python.sortImports.path": "~/.miniconda/envs/neovim/bin/isort",
   "python.jediPath": "~/.miniconda/envs/neovim/lib/python3.8/site-packages",
 
